@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 20%;
+    max-width: 100%;
+}
+
+.header{
+     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+      url(image/bgimage.png);
+     background-size: cover;
+     background-position: center;
+}
+
+nav{
+    display: flex;
+    align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+    margin: 1em;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.email-logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 60px;
+}
+
+.container {
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+
+.welcome1 img {
+    float: right;
+    width: 50%;
+}
+.welcome1 p {
+    float: left;
+    width: 40%;
+    padding: 2em;
+}
+
+.welcome2 img {
+    float: left;
+    width: 50%;
+}
+.welcome2 p {
+    float: right;
+    width: 40%;
+    padding: 2em;
+}
+
+.welcome3 img {
+    float: right;
+    width: 50%;
+}
+.welcome3 p {
+    float: left;
+    width: 40%;
+    padding: 2em;
+}
+
+.welcome1, .welcome2, .welcome3, .clear {
+    clear: both;
+}
+
+footer {
+    background-color: #fff;
+    display: flex;
+}
+
+footer figure {
+    margin: 1.5em 2em;
+}
+footer figure img {
+   width: 250px;
+   height: 250px;
+}
+footer figure figcaption {
+    text-align: center;
+}
+
+footer .link {
+    padding: 2em;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+footer .link li {
+    list-style: none;
+    text-align: center;
+}
+
+footer .link li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .contact {
+    padding: 2em 2em;
+}
+footer .contact h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+footer .contact img {
+    width: 50px;
+    height: 50px;
+    padding: 5px 15px;
+}
+
+footer .schedules {
+    padding: 2em 2em;
+}
+footer .schedules p {
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+span {font-weight: 600;}

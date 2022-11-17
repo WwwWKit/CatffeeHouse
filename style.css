@@ -19,7 +19,6 @@
 
 nav{
     display: flex;
-    align: center;
     justify-content: space-between;
     padding: 20px;
 }
@@ -53,7 +52,7 @@ nav{
     margin-right: 60px;
 }
 
-.container {
+main {
     background-color: antiquewhite;
     font-size: 25px;
 }
@@ -154,3 +153,66 @@ footer .schedules p {
 }
 
 span {font-weight: 600;}
+
+/* menu.html */
+.drinks img {
+    float: right;
+    width: 50%;
+}
+
+.food img {
+    float: left;
+    width: 50%;
+}
+
+.coffee img {
+    float: right;
+    width: 50%;
+}
+
+.drinks, .food, .coffee {
+    clear: both;
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+th{
+    text-align: center;
+}
+td{
+    width: 100%;
+    padding: .2em 1.8em;
+}
+
+.coffeecontain h2{
+    text-align: center;
+    padding: .5em 0;
+}
+
+.coffeecontain{
+    padding: .5em 2em;
+}
+
+.shop{
+    background-color: #333;
+    color: #fff;
+}
+
+.shop h2{
+    padding: 50px 0;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+    text-align: center;
+}

@@ -143,7 +143,7 @@ footer .social img {
 }
 
 footer .schedules h2{
-    padding: 1em 1em 0 1em;
+    padding:1em 0 0 1em;
     font-size: 2em;
 }
 footer .schedules p {
@@ -215,4 +215,8 @@ td{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
     text-align: center;
+}
+
+select {
+    width: 80%;
 }

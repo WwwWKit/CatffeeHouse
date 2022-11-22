@@ -147,7 +147,7 @@ footer .schedules h2{
     padding:1em 0 0 1em;
     font-size: 2em;
 }
-footer .schedules p {
+footer .schedules p{
     padding-top: 1em;
     text-align: center;
     font-size: 1.2em;
@@ -276,4 +276,33 @@ form {
     text-align:center ;
     padding: 10px;
 }
+
+.aboutus {
+    text-align: center;
+}
+
+.aboutus .phone, .direction, .schedules2{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.callbtn, .mapbtn{
+    color: #fff;
+    text-decoration: none;
+    background: #fc7b03;
+    padding: 15px 60px;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+/* .phone h4, .direction h4 {
+    margin-bottom: 30px;
+}
+
+.phone p, .direction p {
+    margin-top: 30px;
+} */
 

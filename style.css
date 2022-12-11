@@ -1,13 +1,11 @@
 *{
     margin: 0;
-    padding: 0; 
 }
 
 #wrapper{
-    width: 100%;
     margin: 0 auto;
-    min-width: 20%;
-    max-width: 100%;
+    min-width: 1200px;
+    max-width: auto;
 }
 
 .header{
@@ -53,8 +51,13 @@ nav{
 }
 
 main {
+    font-family: montserrat,Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
     font-size: 25px;
+}
+
+h1, h2 ,h3,h4, caption{
+    font-family: comfortaa,Arial, Helvetica, sans-serif;
 }
 
 .welcome1 img {
@@ -94,22 +97,23 @@ main {
 footer {
     background-color: #fff;
     display: flex;
-    margin: 0 10%;
+    margin: 0 1%;
+    justify-content: center;
 }
 
 footer figure {
-    margin: 1.5em 2em 1.5em 0;
+    margin: 1.5em 0 1.5em 0;
 }
 footer figure img {
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
 }
 footer figure figcaption {
     text-align: center;
 }
 
 footer .link {
-    padding: 2em 3em;
+    padding: 2em 2em;
     font-size: 1.3em;
     font-weight: 600;
 }
@@ -125,7 +129,7 @@ footer .link li a {
 }
 
 footer .contact, .social {
-    padding: 2em 3em;
+    padding: 2em 2em;
 }
 
 footer .contact p {
@@ -140,7 +144,7 @@ footer .contact h2, .social h2 {
 footer .social img {
     width: 50px;
     height: 50px;
-    padding: 5px 5px;
+    padding: 5px 10px;
 }
 
 footer .schedules h2{
@@ -260,13 +264,13 @@ form {
     margin-right: 20px;
 }
 .contact .policy{
-    font-size: .8em;
+    font-size: .6em;
 }
 
 .contact button{
     width: 100px;
     height: 40px;
-    align-items: end;
+    margin: 5px 0;
 }
 
 /* story.html */
@@ -298,11 +302,20 @@ form {
     margin: 30px 0;
 }
 
-/* .phone h4, .direction h4 {
+.phone h4, .direction h4 {
     margin-bottom: 30px;
 }
 
 .phone p, .direction p {
     margin-top: 30px;
-} */
+}
 
+/* The Rules */
+.rules p {
+    padding: 20px;
+}
+.rules li {
+    padding: 5px;
+    margin: 0 40px;
+    font-weight: 600;
+}

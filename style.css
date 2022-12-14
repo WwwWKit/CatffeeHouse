@@ -60,8 +60,9 @@ h1, h2 ,h3,h4, caption{
     font-family: comfortaa,Arial, Helvetica, sans-serif;
 }
 
-.container p {
+.container p, h3{
     text-align: center;
+    padding: 1em 0 0 0;
 }
 
 .welcome1 img {
@@ -71,7 +72,10 @@ h1, h2 ,h3,h4, caption{
 .welcome1 p {
     float: left;
     width: 40%;
-    padding: 2em;
+    padding: 1em 2em;
+}
+.welcome1 span, .welcome2 span, .welcome3 span {
+    font-weight: 600;
 }
 
 .welcome2 img {
@@ -81,7 +85,7 @@ h1, h2 ,h3,h4, caption{
 .welcome2 p {
     float: right;
     width: 40%;
-    padding: 2em;
+    padding: 1em 2em;
 }
 
 .welcome3 img {
@@ -91,7 +95,7 @@ h1, h2 ,h3,h4, caption{
 .welcome3 p {
     float: left;
     width: 40%;
-    padding: 2em;
+    padding: 1em 2em;
 }
 
 .welcome1, .welcome2, .welcome3, .clear {
@@ -326,3 +330,10 @@ form {
     text-align: center;
     padding: 0 5%;
 }
+
+.storybgc {
+    width: 100%;
+    max-height: 800px;
+}
+
+

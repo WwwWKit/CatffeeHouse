@@ -346,7 +346,7 @@ form {
 .row {
     margin: 0 15%;
 }
-.column, .column1 {
+.column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9 {
     float: left;
     width: 33%;
     text-align: center;
@@ -354,14 +354,25 @@ form {
     font-weight: 600;
 }
 
-.row h2 {
-    text-align: center;
-    margin: 1em 0;
-}
+.column1 {color: #fc7b03;}
+.column2 {color: purple;}
+.column3 {color: blue;}
+.column4 {color: yellowgreen;}
+.column5 {color: #E5C834;}
+.column6 {color: black;}
+.column7 {color: #189E94;}
+.column8 {color: darkkhaki;}
+.column9 {color: #59BE00;}
+
 
 .row img {
     width: 100%;
     height: auto;
+}
+
+.sub {
+    font-size: .7em;
+    font-weight: 300;
 }
 
 .newcat {
@@ -378,14 +389,8 @@ form {
     text-align: center;
 }
 
-.row p {padding: .5em 0;}
+.row p {
+    padding: .5em 0;
+    font-weight: 400;
+}
 
-#cat1 {color: red;}
-#cat2 {color: #fc7b03;}
-#cat3 {}
-#cat4 {}
-#cat5 {}
-#cat6 {}
-#cat7 {}
-#cat8 {}
-#cat9 {}

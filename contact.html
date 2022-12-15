@@ -57,9 +57,9 @@
                 <h1>Contact&nbsp;Us</h1>
                 <p>Need to get in touch? Fill in the form below and we&apos;ll respond to your inquiry as soon as we can.</p>
                 <br>
-                <form>
+                <form action="https://www.w3schools.com/action_page.php">
                     Topic
-                    <select>
+                    <select name="topic">
                         <option value="0">-Select One-</option>
                         <option value="1">Food</option>
                         <option value="2">Product</option>
@@ -68,19 +68,19 @@
                         <option value="5">Others</option>
                     </select> <br>
                     Feedback/Suggestion <br>
-                    <input class="feedback" type="text" placeholder="Feedback/Suggestion">
+                    <input class="feedback" type="text" name="feedback" placeholder="Feedback/Suggestion">
 
                     <h2>Let us connect with you</h2> <br>
-                    <label class="name">Name<input type="text" placeholder="Name"></label>
-                    <label class="age">Age<input type="text" placeholder="Age"></label>
-                    <label class="tel">Tel No.<input type="tel" placeholder="Tel No."></label>
-                    <label class="email">Email<input type="email" placeholder="Email"></label>
-                    <label class="address">Address<input type="text" placeholder="Address"></label>
-                    <label class="town">Town/City<input type="text" placeholder="Town/City"></label>
-                    <label class="postcode">Postcode<input type="text" placeholder="Postcode"></label>
-                    <label class="state">State<input type="text" placeholder="State"></label><div class="clear"></div> <br>
-                    <label class="policy"><input type="checkbox">By providing your personal details on this feedback section, you agree to Catffee House&apos;s Privacy Policy.</label> <br>
-                    <button type="submit">Summit</button>
+                    <label class="name">Name<input type="text" name="name" placeholder="Name"></label>
+                    <label class="age">Age<input type="text" name="age" placeholder="Age"></label>
+                    <label class="tel">Tel No.<input type="tel" name="tel" placeholder="Tel No."></label>
+                    <label class="email">Email<input type="email" name="email" placeholder="Email"></label>
+                    <label class="address">Address<input type="text" name="address" placeholder="Address"></label>
+                    <label class="town">Town/City<input type="text" name="town" placeholder="Town/City"></label>
+                    <label class="postcode">Postcode<input type="text" name="postcode" placeholder="Postcode"></label>
+                    <label class="state">State<input type="text" name="state" placeholder="State"></label><div class="clear"></div> <br>
+                    <label class="policy"><input type="checkbox" name="policy" value="agree" required>By providing your personal details on this feedback section, you agree to Catffee House&apos;s Privacy Policy.</label> <br>
+                    <button type="submit" name="summit" value="summit">Summit</button>
                 </form>
 
             </div>

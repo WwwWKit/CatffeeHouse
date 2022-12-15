@@ -54,7 +54,7 @@ nav{
 main {
     font-family: montserrat,Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 h1, h2 ,h3,h4, caption{
@@ -75,6 +75,7 @@ h1, h2 ,h3,h4, caption{
     width: 40%;
     padding: 1em 2em;
 }
+
 .welcome1 span, .welcome2 span, .welcome3 span {
     font-weight: 600;
 }
@@ -104,26 +105,22 @@ h1, h2 ,h3,h4, caption{
 }
 
 footer {
-    width: 90%;
     background-color: #fff;
     display: flex;
-    margin: 0 5%;
+    margin: 2% 8%;
     justify-content: center;
 }
 
 footer figure {
-    padding: 1.5em 0 1.5em 0;
+    padding: 0 2%;
 }
+
 footer figure img {
-   width: 200px;
-   height: 200px;
-}
-footer figure figcaption {
-    text-align: center;
+   width: 180px;
 }
 
 footer .link {
-    padding: 2em;
+    padding: 0 2%;
     font-size: 1.3em;
     font-weight: 600;
 }
@@ -139,7 +136,7 @@ footer .link li a {
 }
 
 footer .contact, .social {
-    padding: 2em 2em;
+    padding: 0 2%;
 }
 
 footer .contact p {
@@ -148,7 +145,7 @@ footer .contact p {
 
 footer .contact h2, .social h2 {
     text-align: center;
-    padding: 10px;
+    padding:0 2% ;
 }
 
 footer .social img {
@@ -158,11 +155,10 @@ footer .social img {
 }
 
 footer .schedules h2{
-    padding:1em 0 0 1em;
+    padding: 0 2% ;
     font-size: 2em;
 }
 footer .schedules p{
-    padding-top: 1em;
     text-align: center;
     font-size: 1.2em;
 }
@@ -348,7 +344,7 @@ form {
 }
 .column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9 {
     float: left;
-    width: 33%;
+    width: 32%;
     text-align: center;
     padding:0 2px;
     font-weight: 600;
@@ -357,10 +353,10 @@ form {
 .column1 {color: #fc7b03;}
 .column2 {color: purple;}
 .column3 {color: blue;}
-.column4 {color: yellowgreen;}
+.column4 {color: #189E94;}
 .column5 {color: #E5C834;}
 .column6 {color: black;}
-.column7 {color: #189E94;}
+.column7 {color: silver;}
 .column8 {color: darkkhaki;}
 .column9 {color: #59BE00;}
 
@@ -382,7 +378,12 @@ form {
     margin: 0 10px 0 0;
 }
 
-.row h2 { text-align: left;}
+.row .family { 
+    text-align: center;
+    margin: 1em 0;
+}
+
+.row h2 {text-align: left;}
 
 .row span {
     font-weight: 500;
@@ -393,4 +394,3 @@ form {
     padding: .5em 0;
     font-weight: 400;
 }
-

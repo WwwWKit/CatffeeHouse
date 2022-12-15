@@ -5,7 +5,7 @@
 #wrapper{
     margin: 0 auto;
     width: 100%;
-    min-width: 1200px;
+    min-width: auto;
     max-width: auto;
 }
 
@@ -54,7 +54,7 @@ nav{
 main {
     font-family: montserrat,Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
-    font-size: 1.5em;
+    font-size: 150%;
 }
 
 h1, h2 ,h3,h4, caption{
@@ -73,7 +73,7 @@ h1, h2 ,h3,h4, caption{
 .welcome1 p {
     float: left;
     width: 40%;
-    padding: 1em 2em;
+    margin: 0 5%;
 }
 
 .welcome1 span, .welcome2 span, .welcome3 span {
@@ -88,7 +88,7 @@ h1, h2 ,h3,h4, caption{
 .welcome2 p {
     float: right;
     width: 40%;
-    padding: 1em 2em;
+    margin: 0 5%;
 }
 
 .welcome3 img {
@@ -99,7 +99,7 @@ h1, h2 ,h3,h4, caption{
 .welcome3 p {
     float: left;
     width: 40%;
-    padding: 1em 2em;
+    margin: 0 5%;
 }
 
 .welcome1, .welcome2, .welcome3, .clear {
@@ -201,12 +201,12 @@ td{
     padding: .2em 1.8em;
 }
 
-.coffeecontain h2{
+.homecoffee h2{
     text-align: center;
     padding: .5em 0;
 }
 
-.coffeecontain{
+.homecoffee{
     padding: .5em 2em;
 }
 
@@ -219,7 +219,7 @@ td{
     padding: 50px 0;
     font-size: 2em;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .product img{
@@ -228,7 +228,7 @@ td{
 }
 .product{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
     text-align: center;
 }
 

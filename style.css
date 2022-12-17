@@ -213,6 +213,7 @@ td{
 .shop{
     background-color: #333;
     color: #fff;
+    padding-bottom: 5%;
 }
 
 .shop h2{
@@ -230,6 +231,11 @@ td{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
     text-align: center;
+}
+
+.product a {
+    text-decoration: none;
+    color: white;
 }
 
 /* contact.html */
